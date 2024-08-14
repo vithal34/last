@@ -12,7 +12,7 @@ import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
   title: "We Provide:",
-  // desc: "Empower-Invest combines financial literacy with real-world business experience, providing a unique educational tool for students. Our platform allows users to invest virtual currency in real small and local businesses, offering an interactive and practical approach to learning about finance and entrepreneurship.",
+  desc: "Empower-Invest combines financial literacy with real-world business experience, providing a unique educational tool for students. Our platform allows users to invest virtual currency in real small and local businesses, offering an interactive and practical approach to learning about finance and entrepreneurship.",
   image: benefitOneImg,
   bullets: [
     {
@@ -35,7 +35,7 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "What You'll Learn!",
-  desc: "",
+  desc: "Explore essential skills in managing money, making smart investments, and gaining insights into how real businesses function.",
   image: benefitTwoImg,
   bullets: [
     {
@@ -50,11 +50,10 @@ const benefitTwo = {
     },
     {
       title: "Insights Into Real Businesses",
-      desc: "Data dives, customer whispers, adapt or get disrupted. ",
+      desc: "Data dives, customer whispers, adapt or get disrupted.",
       icon: <SunIcon />,
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };

@@ -31,7 +31,7 @@ const Visit: React.FC = () => {
                         Business Visits with Empower Invest
                     </h1>
                     <p className="mb-6 text-lg leading-relaxed">
-                        We're thrilled to offer you the opportunity to visit real businesses and gain a deeper understanding of their operations.
+                        We&apos;re thrilled to offer you the opportunity to visit real businesses and gain a deeper understanding of their operations.
                     </p>
                     <p className="mb-6 text-lg leading-relaxed">
                         To ensure a valuable experience, please book your slots promptly, as we can accommodate a maximum of 15 students per visit. If you’re unable to secure a spot this time, don’t worry—additional visits will be scheduled on weekends.
