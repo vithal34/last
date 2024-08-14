@@ -77,31 +77,31 @@ const AboutUs = () => {
             <div className="flex gap-8 justify-center w-full max-w-4xl">
               <TeamMember
                 image={teamMember1}
-                name="Jane Doe"
-                position="CEO"
-                bio="Jane is a visionary leader with over 20 years of experience in the finance industry."
+                name="Advik Kotawala"
+                position="Founder"
+                bio=""
               />
               <TeamMember
                 image={teamMember2}
-                name="John Smith"
-                position="CTO"
-                bio="John is a tech enthusiast and expert in developing cutting-edge financial software."
+                name="Vithal Agrawal"
+                position="CEO"
+                bio=""
               />
             </div>
             <div className="flex flex-wrap gap-8 justify-center w-full max-w-4xl mt-8">
               <TeamMember
                 image={teamMember3}
-                name="Alice Johnson"
-                position="CFO"
-                bio="Alice has a strong background in financial management and investment strategies."
+                name="Shaurya Kohli"
+                position="COO"
+                bio=""
               />
               <TeamMember
                 image={teamMember4}
-                name="Michael Brown"
-                position="CMO"
-                bio="Michael has expertise in marketing strategies and brand management."
+                name="Vaishnavi Siyag"
+                position="Head of Design"
+                bio=""
               />
-              <TeamMember
+              {/* <TeamMember
                 image={teamMember5}
                 name="Emma Wilson"
                 position="COO"
@@ -118,7 +118,7 @@ const AboutUs = () => {
                 name="Sophia Miller"
                 position="VP of Product"
                 bio="Sophia oversees product development and strategy."
-              />
+              /> */}
             </div>
           </div>
         </Container>
