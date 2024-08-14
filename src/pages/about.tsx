@@ -7,11 +7,9 @@ import { Navbar } from "@/components/Navbar";
 import teamMember1 from "../../public/img/user1.jpg";
 import teamMember2 from "../../public/img/user2.jpg";
 import teamMember3 from "../../public/img/user3.jpg";
-import teamMember4 from "../../public/img/user1.jpg";
-import teamMember5 from "../../public/img/user2.jpg";
-import teamMember6 from "../../public/img/user3.jpg";
-import teamMember7 from "../../public/img/user1.jpg";
+import teamMember4 from "../../public/img/user4.jpg"; // Added
 
+// Define the TypeScript interface for the TeamMember props
 interface TeamMemberProps {
   image: StaticImageData;
   name: string;
@@ -69,56 +67,38 @@ const AboutUs = () => {
             </div>
           </div>
         </Container>
-        <Container className="py-12">
-          <h2 className="text-3xl font-bold leading-snug tracking-tight text-center text-white lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight">
+        <Container className="py-16">
+          <h2 className="text-4xl font-bold text-center text-white mb-8">
             Meet Our Team
           </h2>
-          <div className="flex flex-wrap justify-center mt-8 gap-8">
-            <div className="flex gap-8 justify-center w-full max-w-4xl">
+          <div className="flex flex-col items-center gap-8">
+            <div className="flex gap-8 justify-center w-full max-w-4xl mb-8">
               <TeamMember
                 image={teamMember1}
                 name="Advik Kotawala"
                 position="Founder"
-                bio=""
+                bio="Advik is passionate about empowering others with financial knowledge."
               />
               <TeamMember
                 image={teamMember2}
                 name="Vithal Agrawal"
                 position="CEO"
-                bio=""
+                bio="Vithal drives our vision forward with strategic leadership."
               />
             </div>
-            <div className="flex flex-wrap gap-8 justify-center w-full max-w-4xl mt-8">
+            <div className="flex gap-8 justify-center w-full max-w-4xl">
               <TeamMember
                 image={teamMember3}
                 name="Shaurya Kohli"
                 position="COO"
-                bio=""
+                bio="Shaurya ensures our operations run smoothly and efficiently."
               />
               <TeamMember
                 image={teamMember4}
                 name="Vaishnavi Siyag"
                 position="Head of Design"
-                bio=""
+                bio="Vaishnavi creates visually engaging and impactful designs."
               />
-              {/* <TeamMember
-                image={teamMember5}
-                name="Emma Wilson"
-                position="COO"
-                bio="Emma ensures smooth operations and efficient management of our resources."
-              />
-              <TeamMember
-                image={teamMember6}
-                name="Olivia Lee"
-                position="VP of Sales"
-                bio="Olivia leads our sales team and drives business growth."
-              />
-              <TeamMember
-                image={teamMember7}
-                name="Sophia Miller"
-                position="VP of Product"
-                bio="Sophia oversees product development and strategy."
-              /> */}
             </div>
           </div>
         </Container>
