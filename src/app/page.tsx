@@ -42,6 +42,7 @@ export default function Home() {
       <div className="flex flex-wrap items-center justify-between w-full max-w-4xl mx-auto text-white px-2 py-2 rounded-xl">
         <Image
           src={timeLine}
+          id="register"
           width="1500"
           height="500"
           className="object-cover items-center"
