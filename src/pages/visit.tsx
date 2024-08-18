@@ -24,9 +24,9 @@ const Visit: React.FC = () => {
                     <p className="mb-6 text-lg leading-relaxed">
                         As a member of Empower-Invest, you <strong>automatically gain access</strong> to recordings from previous sessions, ensuring you <strong>never miss out</strong> on valuable insights and experiences.
                     </p>
-                    <div className="my-6">
+                    {/* <div className="my-6">
                         <p className="italic">- Leave space for a chart/diagram for the timeline of the sessions -</p>
-                    </div>
+                    </div> */}
                     <h1 className="text-5xl font-extrabold mb-6 text-white animate-fade-in">
                         Business Visits with Empower Invest
                     </h1>
