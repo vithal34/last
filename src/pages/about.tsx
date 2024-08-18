@@ -83,7 +83,7 @@ const AboutUs = () => {
                 image={teamMember2}
                 name="Vithal Agrawal"
                 position="CTO"
-                bio="Vithal drives our vision forward with strategic leadership."
+                bio="Vithal blends innovative tech with strategic vision."
               />
             </div>
             <div className="flex gap-8 justify-center w-full max-w-4xl">
