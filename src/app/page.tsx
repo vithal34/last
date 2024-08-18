@@ -15,7 +15,7 @@ export default function Home() {
     <Container>
       <Hero />
       <SectionTitle preTitle="Benefits" title=" Why Us?">
-        Empower-Invest bridges financial literacy and real-world business for students. Using our platform, users invest virtual currency into real small and local businesses, tracking their investments in real-time. As investments grow, students visit these businesses to see firsthand how their money is used. This unique approach educates and inspires by showing tangible investment outcomes.
+        Empower-Invest bridges financial literacy and real-world business for students. Using our platform, users invest virtual currency into global and local businesses, tracking their investments in real-time. As investments grow, students visit these businesses to see firsthand how their money is used. This unique approach educates and inspires by showing tangible investment outcomes.
       </SectionTitle>
 
       <Benefits data={benefitOne} />

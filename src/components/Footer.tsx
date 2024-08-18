@@ -111,9 +111,9 @@ export function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
+          Copyright © {new Date().getFullYear()}. Proudly created by{" "}
           <a href="https://web3templates.com/" target="_blank" rel="noopener">
-            Vithal Agrawal.
+            Team Empower Invest.
           </a>{" "}
         </div>
       </Container>

@@ -4,7 +4,7 @@ import "../app/globals.css";
 import Image, { StaticImageData } from "next/image";
 import { Container } from "@/components/Container";
 import { Navbar } from "@/components/Navbar";
-import teamMember1 from "../../public/img/user1.jpg";
+import teamMember1 from "../../public/img/user1.jpeg";
 import teamMember2 from "../../public/img/user2.jpg";
 import teamMember3 from "../../public/img/user3.jpg";
 import teamMember4 from "../../public/img/user4.jpg"; // Added
