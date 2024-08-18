@@ -82,7 +82,7 @@ const AboutUs = () => {
               <TeamMember
                 image={teamMember2}
                 name="Vithal Agrawal"
-                position="CEO"
+                position="CTO"
                 bio="Vithal drives our vision forward with strategic leadership."
               />
             </div>
