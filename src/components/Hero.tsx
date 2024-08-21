@@ -12,7 +12,7 @@ export const Hero = () => {
               Invest in Tomorrow&#39;s Leaders Today!
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            Join our dynamic platform to simulate real-world investments in local businesses. Start your journey to financial literacy now by taking the Quiz!
+            Join our dynamic platform to simulate real-world investments in local and global businesses. Start your journey to financial literacy now by taking the Quiz!
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
