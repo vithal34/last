@@ -45,7 +45,7 @@ const Visit: React.FC = () => {
                         </button>
                     </div>
                     <div className="my-6">
-                        <p className="italic">- Space for the slots and businesses will be displayed here that are available to visit -</p>
+                        {/* <p className="italic">- Space for the slots and businesses will be displayed here that are available to visit -</p> */}
                     </div>
                     <h1 className="text-5xl font-extrabold mb-6 text-white animate-fade-in">
                         Competitions with Empower Invest

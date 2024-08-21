@@ -22,7 +22,7 @@ export default function Home() {
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle preTitle="Watch a video" title="Learn how to use the application">
-        This section highlights a demo video of our investment platform, Empower-Invest. Learn how you can invest virtual currency in real-life local businesses and track your earnings.
+        This section highlights a demo video of our investment platform, Empower-Invest. Learn how you can invest virtual currency in real-life local and global businesses and track your earnings.
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />
@@ -35,7 +35,7 @@ export default function Home() {
 
       <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-trueGray-800 px-7 py-2 lg:px-5 lg:py-2 lg:flex-nowrap rounded-xl">
         <SectionTitle preTitle="" title="Reach Out To Us">
-          Fill Out This Form To Receive Prompt Solutions To Any Problems! <br /><br /> For further assistance, reach out to <strong>Advik Kotawala, 97723 70036</strong>. <br />For tech-related assistance, reach out to <strong>Vithal Agrawal, 91166 64128</strong>.
+          {/* Fill Out This Form To Receive Prompt Solutions To Any Problems! <br /><br /> For further assistance, reach out to <strong>Advik Kotawala, 97723 70036</strong>. <br />For tech-related assistance, reach out to <strong>Vithal Agrawal, 91166 64128</strong>. */}
         </SectionTitle>
       </div>
 

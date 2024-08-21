@@ -9,7 +9,7 @@ export const Navbar = () => {
   const navigation = [
     { text: "How to Register?", url: "#register" },
     { text: "About Us", url: "/about" },
-    { text: "Visit", url: "/visit" },
+    { text: "Visits & Sessions", url: "/visit" },
     { text: "Invest Now", url: "" },
     { text: "Contact Us", url: "#contacts" },
   ];
@@ -106,7 +106,7 @@ export const Navbar = () => {
               Take the Quiz!
             </div> */}
           </Link>
-          <Link href="">
+          <Link href="http://localhost:5173/login">
             <div className="px-6 py-2 text-white bg-indigo-600 rounded-md">
               Get Started
             </div>

@@ -87,9 +87,9 @@ export const Navbar = () => {
                         </div>
                       </Link>
                     ))}
-                    <Link href="">
+                    <Link href="localhost:5173/login">
                       <div className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
-                        Get Started
+                        <Link href="localhost:5173">Get Started</Link>
                       </div>
                     </Link>
                   </>
