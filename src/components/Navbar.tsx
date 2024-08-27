@@ -106,7 +106,7 @@ export const Navbar = () => {
               Take the Quiz!
             </div> */}
           </Link>
-          <Link href="https://latestapp-kappa.vercel.app">
+          <Link href="localhost:5173">
             <div className="px-6 py-2 text-white bg-indigo-600 rounded-md">
               Get Started
             </div>
