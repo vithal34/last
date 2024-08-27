@@ -44,11 +44,6 @@ const faqdata = [
     answer: "Successfully completing the quiz is an important component of your financial literacy journey, hence you will only be allowed to use the platform after completing the quiz!",
   },
   {
-    question: "What is your financial policy? ",
-    answer:
-      "Flexible",
-  },
-  {
     question: "Do you offer technical support? ",
     answer:
       "Yes, we offer technical support.",
