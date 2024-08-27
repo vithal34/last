@@ -87,9 +87,9 @@ export const Navbar = () => {
                         </div>
                       </Link>
                     ))}
-                    <Link href="localhost:5173/login">
+                    <Link href="https://latestnew.onrender.com">
                       <div className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
-                        <Link href="localhost:5173">Get Started</Link>
+                        <Link href="https://latestnew.onrender.com">Get Started</Link>
                       </div>
                     </Link>
                   </>
